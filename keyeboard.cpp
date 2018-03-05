@@ -1,3 +1,10 @@
+/*Keyeboard by Anna Kassaraba
+ Fall 2016 - Present
+ 
+
+
+*/
+
 #include <opencv2/opencv.hpp>
 #include <string>
 #include <vector>
@@ -1019,6 +1026,7 @@ void drawCAPITALVOWELS(Key vowelsOUT[]) {
 		vh1 = vh1+hscaleVOWEL2;
 		vh2 = vh2+hscaleVOWEL2;
 	}//create points for section B
+	
 	for (int i = 0; i < 6; i++) {
 		vowelsOUT[i].extra(points_of_vowels[i][0], points_of_vowels[i][1]);
 		vowelsOUT[i].symbol = vowel_strings[i];
